@@ -7,6 +7,7 @@
 // making variable 
 $variable-height:400px;
 $variable-width:400px;
+$variables-center:center;
 
 // card design
 .main{
@@ -20,19 +21,19 @@ background-color: aqua;
 display: flex;
 width: $variable-width;
 height: $variable-height;
-justify-content: center;
+justify-content: $variables-center;
 }
 .card2{
   background-color: blue;
   display: flex;
   width:$variable-width;
 height: $variable-height;
-justify-content: center;
+justify-content: $variables-center;
 }
 .card3{
   background-color: brown;
   display: flex;
   width: $variable-width;
 height: $variable-height;
-justify-content: center;
+justify-content: $variables-center;
 }
