@@ -5,30 +5,43 @@
 
 .main {
   display: flex;
-  padding-top: 30px;
-  padding-left: 6%;
+  padding-top: 5%;
+  padding: 10px 10px 10px;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
 }
 
 .card1 {
   background-color: aqua;
   display: flex;
-  width: 400px;
-  height: 400px;
+  width: 230px;
+  height: 350px;
   justify-content: center;
+  border-radius: 15px;
 }
 
 .card2 {
   background-color: blue;
   display: flex;
-  width: 400px;
-  height: 400px;
+  width: 230px;
+  height: 350px;
   justify-content: center;
+  border-radius: 15px;
 }
 
 .card3 {
   background-color: brown;
   display: flex;
-  width: 400px;
-  height: 400px;
+  width: 230px;
+  height: 350px;
   justify-content: center;
+  border-radius: 15px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  padding-top: 5px;
 }/*# sourceMappingURL=demo.css.map */

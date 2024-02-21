@@ -5,35 +5,48 @@
 }
 
 // making variable 
-$variable-height:400px;
-$variable-width:400px;
+$variable-height:350px;
+$variable-width:230px;
 $variables-center:center;
+$display-flex:flex;
 
 // card design
 .main{
-  display: flex;
-  padding-top: 30px;
-  padding-left: 6%;
+  display: $display-flex;
+  padding-top: 5%;
+  padding:  10px 10px 10px;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
 }
 
 .card1{
 background-color: aqua;
-display: flex;
+display: $display-flex;
 width: $variable-width;
 height: $variable-height;
 justify-content: $variables-center;
+ border-radius: 15px;
 }
 .card2{
   background-color: blue;
-  display: flex;
+  display: $display-flex;
   width:$variable-width;
 height: $variable-height;
 justify-content: $variables-center;
+ border-radius: 15px;
 }
 .card3{
   background-color: brown;
-  display: flex;
+  display: $display-flex;
   width: $variable-width;
 height: $variable-height;
 justify-content: $variables-center;
+ border-radius: 15px;
+}
+img{
+  height:200px;
+  width: 200px;
+  border-radius: 20px;
+  padding-top: 5px;
 }
