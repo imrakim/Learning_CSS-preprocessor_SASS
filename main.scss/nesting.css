@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  color: white;
+  display: block;
+}
+.container .h-prymary {
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+.container .frist_p {
+  background-color: rgb(224, 107, 53);
+  color: rgb(219, 228, 228);
+  font-size: 25px;
+  height: 200px;
+}
+.container .second_p {
+  background-color: rgb(187, 92, 92);
+  height: 200px;
+  font-size: 25px;
+}
+.container .third_p {
+  background-color: rgb(165, 209, 120);
+  height: 200px;
+  color: black;
+  font-size: 25px;
+}/*# sourceMappingURL=nesting.css.map */
