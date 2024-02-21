@@ -1,0 +1,38 @@
+//  Css Reset
+*{
+  margin: 0;
+  padding: 0;
+}
+
+// making variable 
+$variable-height:400px;
+$variable-width:400px;
+
+// card design
+.main{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 6%;
+}
+
+.card1{
+background-color: aqua;
+display: flex;
+width: $variable-width;
+height: $variable-height;
+justify-content: center;
+}
+.card2{
+  background-color: blue;
+  display: flex;
+  width:$variable-width;
+height: $variable-height;
+justify-content: center;
+}
+.card3{
+  background-color: brown;
+  display: flex;
+  width: $variable-width;
+height: $variable-height;
+justify-content: center;
+}
