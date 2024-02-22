@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-// making variable 
+// making-variable 
 $variable-height:350px;
 $variable-width:230px;
 $variables-center:center;
@@ -12,41 +12,21 @@ $display-flex:flex;
 
 // card design
 .main{
-  display: $display-flex;
-  padding-top: 5%;
-  padding:  10px 10px 10px;
-  height: 100%;
-  width: 100%;
-  gap: 10px;
+  @include theme;
 }
 
 .card1{
 background-color: aqua;
-display: $display-flex;
-width: $variable-width;
-height: $variable-height;
-justify-content: $variables-center;
- border-radius: 15px;
+@include comoncode;
 }
 .card2{
   background-color: blue;
-  display: $display-flex;
-  width:$variable-width;
-height: $variable-height;
-justify-content: $variables-center;
- border-radius: 15px;
+  @include comoncode;
 }
 .card3{
   background-color: brown;
-  display: $display-flex;
-  width: $variable-width;
-height: $variable-height;
-justify-content: $variables-center;
- border-radius: 15px;
+ @include comoncode;
 }
 img{
-  height:200px;
-  width: 200px;
-  border-radius: 20px;
-  padding-top: 5px;
+ @include imgcode;
 }

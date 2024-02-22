@@ -1,0 +1,22 @@
+// _import.scss
+@mixin theme {
+  display: $display-flex;
+  padding-top: 5%;
+  padding:  10px 10px 10px;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+@mixin comoncode {
+  display: $display-flex;
+width: $variable-width;
+height: $variable-height;
+justify-content: $variables-center;
+ border-radius: 15px;
+}
+@mixin imgcode {
+  height:200px;
+  width: 200px;
+  border-radius: 20px;
+  padding-top: 5px;
+}
